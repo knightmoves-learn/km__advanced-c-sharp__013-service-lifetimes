@@ -7,7 +7,7 @@
 ## Instructions
 
 In `HomeEnergyApi/Program.cs`
-- Replace the ilne `builder.Services.AddSingleton<IControllerFactory, ApplicationFactory>()` with `builder.Services.AddSingleton<IRepository<int, Home>, HomeRepository>();`.
+- Replace the line `builder.Services.AddSingleton<IControllerFactory, ApplicationFactory>()` with `builder.Services.AddSingleton<IRepository<int, Home>, HomeRepository>();`.
 
 Delete the file `HomeEnergyApi/ApplicationFactory.cs`
 
