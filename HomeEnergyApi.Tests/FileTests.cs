@@ -12,7 +12,7 @@ using Xunit;
 public class FileTests
 {
     [Fact]
-    public void DoesProgramFileInMyFirstApiExist()
+    public void IsSingletonServiceForIRepositoryAdded()
     {
         string programFilePath = @"../../../../HomeEnergyApi/Program.cs";
         string programContent = File.ReadAllText(programFilePath);
