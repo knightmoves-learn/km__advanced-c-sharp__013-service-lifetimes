@@ -1,12 +1,11 @@
 using Microsoft.AspNetCore.Mvc.Controllers;
 using HomeEnergyApi;
-using HomeEnergyApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddSingleton<IRepository<int, Home>, HomeRepository>();
+builder.Services.AddSingleton<IControllerFactory, ApplicationFactory>();
 
 var app = builder.Build();
 

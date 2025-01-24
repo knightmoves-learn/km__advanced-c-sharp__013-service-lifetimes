@@ -18,4 +18,11 @@ public class FileTests
         string programContent = File.ReadAllText(programFilePath);
         Assert.True(programContent.Contains("builder.Services.AddSingleton<IRepository<int, Home>, HomeRepository>();"), "HomeEnergyApi/Program.cs does not contain the line \"builder.Services.AddSingleton<IRepository<int, Home>, HomeRepository>();\"");
     }
+
+    [Fact]
+    public void IsApplicationFactoryDeleted()
+    {
+        string applicationFactoryFilePath = @"../../../../HomeEnergyApi/ApplicationFactory.cs";
+        Assert.True(!File.Exists(applicationFactoryFilePath), "The file \"ApplicationFactory.cs\" has not been deleted.");
+    }
 }

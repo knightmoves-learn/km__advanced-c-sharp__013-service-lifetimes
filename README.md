@@ -9,10 +9,7 @@
 In `HomeEnergyApi/Program.cs`
 - Replace the ilne `builder.Services.AddSingleton<IControllerFactory, ApplicationFactory>()` with `builder.Services.AddSingleton<IRepository<int, Home>, HomeRepository>();`.
 
-Additional Information:
-
-- Since the last lesson, `Home` has lost it's `Id` property. From now on, when you see a saved home's "id" refrenced, that will refer to it's index within `HomeRepository.HomesList`.
-  - You can still refrence `Home`s type definition in `HomeEnergyApi/Models/HomeModel.cs`
+Delete the file `HomeEnergyApi/ApplicationFactory.cs`
 
 ## Building toward CSTA Standards:
 
