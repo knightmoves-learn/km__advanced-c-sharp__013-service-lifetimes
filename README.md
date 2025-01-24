@@ -2,7 +2,7 @@
 
 ## Lecture
 
-[![# Service Lifetimes](https://img.youtube.com/vi/Hv63d-GBed/0.jpg)](https://www.youtube.com/watch?v=Hv63d-GBed)
+[![# Service Lifetimes](https://img.youtube.com/vi/Hv63d-GBeds/0.jpg)](https://www.youtube.com/watch?v=Hv63d-GBeds)
 
 ## Instructions
 
