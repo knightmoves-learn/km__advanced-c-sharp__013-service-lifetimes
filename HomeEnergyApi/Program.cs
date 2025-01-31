@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc.Controllers;
 using HomeEnergyApi;
+using HomeEnergyApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
